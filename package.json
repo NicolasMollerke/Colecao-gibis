@@ -1,0 +1,14 @@
+{
+  "name": "colecao",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "dev:back": "npm --prefix back run dev",
+  "dev:front": "npm --prefix front run start",
+  "dev": "concurrently \"npm:dev:back\" \"npm:dev:front\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
